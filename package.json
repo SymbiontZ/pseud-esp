@@ -3,6 +3,10 @@
   "displayName": "Pseudocodigo Español",
   "description": "Sintaxis de pseudocodigo",
   "publisher": "fabior",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SymbiontZ/pseud-esp"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.92.0"
