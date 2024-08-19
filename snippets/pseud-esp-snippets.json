@@ -1,0 +1,33 @@
+{
+    "Algoritmo Funcion": {
+      "prefix": "funcion",
+      "body": [
+        "tipo: función $1 (${2:args})",
+        "inicio",
+        "$2",
+        "fin_función"
+      ],
+      "description": "Snippet para iniciar funcion"
+    },
+    "Condicional Simple": {
+      "prefix": "si",
+      "body": [
+        "si $1 entonces",
+        "   $2",
+        "fin_si"
+      ],
+      "description": "Snippet para estructura condicional si-entonces"
+    },
+
+    "Condicional Selectiva": {
+      "prefix": "si-no",
+      "body": [
+        "si $1 entonces",
+        "   $2",
+        "si_no",
+        "   $3",
+        "fin_si"
+      ],
+      "description": "Snippet para estructura condicional si-no"
+    }
+}

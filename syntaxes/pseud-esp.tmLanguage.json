@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Pseudocodigo Español",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.pseud-esp",
+					"match": "\\b(si|entonces|si_no|fin_si)\\b"
+				},
+				{
+					"name": "keyword.operator.pseud-esp",
+					"match": "\\b(∧|∨)\\b"
+				},
+				{
+					"name": "keyword.control.conditional.pseud-esp",
+					"match": "\\bsi\\b.*\\entonces\\b"
+				},
+				{
+					"name": "keyword.function.pseud-esp",
+					"match": "\\b(función|inicio|devolver|fin_función)\\b"
+				},
+				{
+					"name": "storage.type.pseud-esp",
+					"match": "\\b(entero|real|cadena|booleano)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.pseud-esp",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.pseud-esp",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.pseud"
+}

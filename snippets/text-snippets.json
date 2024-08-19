@@ -1,0 +1,12 @@
+{
+    "Algoritmo Funcion": {
+      "prefix": "funcion",
+      "body": [
+        "${1:'tipo'}: función ${2:'nom_funcion'} (${3:'args'})",
+        "inicio",
+        "   ",
+        "fin_función"
+      ],
+      "description": "Snippet para iniciar funcion"
+    }
+}

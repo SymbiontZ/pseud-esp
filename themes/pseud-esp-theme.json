@@ -1,0 +1,28 @@
+{
+    "tokenColors": [
+        {
+            "scope": "keyword.function.pseud-esp",
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": "keyword.control.pseud-esp",
+            "settings": {
+                "foreground": "#CE9178"
+            }
+        },
+        {
+            "scope": "storage.type.pseud-esp",
+            "settings": {
+                "foreground": "#3796AF"
+            }
+        },
+        {
+            "scope": "keyword.control.conditional.pseud-esp",
+            "settings": {
+                "foreground": "#3796AF"
+            }
+        }
+    ]
+}
