@@ -7,13 +7,15 @@
     "type": "git",
     "url": "https://github.com/SymbiontZ/pseud-esp"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.92.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Snippets"
   ],
+  "main": "./out/extension.js",
   "contributes": {
     "languages": [{
       "id": "pseud-esp",
@@ -33,11 +35,6 @@
     {
       "language": "plaintext",
       "path": "./snippets/text-snippets.json"
-    }],
-    "themes": [{
-      "uiTheme": "vs-dark",
-      "label": "pseud-colors",
-      "path": "./themes/pseud-esp-theme.json"
     }]
   }
 }

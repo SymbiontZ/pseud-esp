@@ -2,11 +2,73 @@
     "Algoritmo Funcion": {
       "prefix": "funcion",
       "body": [
-        "${1:'tipo'}: función ${2:'nom_funcion'} (${3:'args'})",
-        "inicio",
-        "   ",
-        "fin_función"
+            "${1:'tipo'}: función ${2:'nom_funcion'} (${3:'args'})",
+            "inicio",
+            "   ",
+            "fin_función"
       ],
       "description": "Snippet para iniciar funcion"
+    },
+
+    "Cabecera": {
+        "prefix": "cabecera",
+        "body": [
+            "//Cabecera: ${1:tipo} ${2:nom_funcion} ()",
+            "//Precondición: ",
+            "//Poscondición: Devuelve "
+        ]
+    },
+    
+    "Función Condicional con Axiomas": {
+        "prefix": "func-cond-axio",
+        "body": [
+            "${1:tipo}: función ${2:nom_funcion} (${3:args})",
+            "{  }",
+            "inicio",
+            "si ${4:cond} entonces",
+            "   devolver ",
+            "fin_si",
+            "{  }",
+            "fin_función"
+        ]
+    },
+
+    "Función Condicional 2 con Axiomas": {
+        "prefix": "func-cond2-axio",
+        "body": [
+            "${1:'tipo'}: función ${2:'nom_funcion'} (${3:'args'})",
+            "{  }",
+            "inicio",
+            "   si ${4:cond} entonces",
+            "       devolver ",
+            "   si_no",
+            "       devolver",
+            "   fin_si",
+            "{  }",
+            "fin_función"
+        ],
+        "description": "Plantilla función condicional doble con axiomas incluidos"
+    },
+
+    "Operador Lógico AND": {
+      "prefix": "and",
+      "body": [
+        "∧"
+      ],
+      "description": "Operador Lógico Formal AND"
+    },
+    "Operador Lógico OR": {
+      "prefix": "or",
+      "body": [
+        "∨"
+      ],
+      "description": "Operador Lógico Formal OR"
+    },
+    "Negación": {
+      "prefix": "not",
+      "body": [
+        "¬"
+      ],
+      "description": "Operador Lógico Formal OR"
     }
 }

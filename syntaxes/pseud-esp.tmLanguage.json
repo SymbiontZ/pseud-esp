@@ -7,6 +7,9 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#types"
 		}
 	],
 	"repository": {
@@ -17,20 +20,12 @@
 					"match": "\\b(si|entonces|si_no|fin_si)\\b"
 				},
 				{
-					"name": "keyword.operator.pseud-esp",
-					"match": "\\b(∧|∨)\\b"
-				},
-				{
-					"name": "keyword.control.conditional.pseud-esp",
-					"match": "\\bsi\\b.*\\entonces\\b"
-				},
-				{
 					"name": "keyword.function.pseud-esp",
 					"match": "\\b(función|inicio|devolver|fin_función)\\b"
 				},
 				{
-					"name": "storage.type.pseud-esp",
-					"match": "\\b(entero|real|cadena|booleano)\\b"
+					"name": "keyword.operator.logical.pseud-esp",
+					"match": "\\b(and|or|∧)\\b"
 				}
 			]
 		},
@@ -44,7 +39,16 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"types": {
+			"patterns": [
+				{
+					"name": "storage.type.pseud-esp",
+					"match": "\\b(entero|real|cadena|booleano)\\b"
+				}
+			]
 		}
+
 	},
 	"scopeName": "source.pseud"
 }

@@ -29,5 +29,28 @@
         "fin_si"
       ],
       "description": "Snippet para estructura condicional si-no"
+    },
+
+
+    "Operador Lógico AND": {
+      "prefix": "and",
+      "body": [
+        "∧"
+      ],
+      "description": "Operador Lógico Formal AND"
+    },
+    "Operador Lógico OR": {
+      "prefix": "or",
+      "body": [
+        "∨"
+      ],
+      "description": "Operador Lógico Formal OR"
+    },
+    "Negación": {
+      "prefix": "not",
+      "body": [
+        "¬"
+      ],
+      "description": "Operador Lógico Formal OR"
     }
 }

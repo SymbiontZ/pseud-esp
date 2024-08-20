@@ -13,9 +13,13 @@ No está terminada este es un release de prueba.
 
 ## Release Notes
 
-Pequeños snippets implementados.
-
-### 1.0.0
+### 0.0.1
 
 Lanzamiento inicial de Pseudocódigo en Español. Pocos snippets implementados. 
 
+
+### 0.1.0
+
+Implementados autocompletado de varias keywords.
+Mas snippets implementados.
+Soporte a los scopes de archivos .pseud.
