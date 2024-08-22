@@ -9,7 +9,7 @@ Sintaxis y snippets para archivos con la extension .pseud.
 
 ## Known Issues
 
-Los scopes no funcionan correctamente por ahora
+No está terminada este es un release de prueba.
 
 ## Release Notes
 
