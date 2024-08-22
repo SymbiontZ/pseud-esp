@@ -1,4 +1,4 @@
-# pseud-esp README
+# Pseudocódigo Esp
 
 Extensión creada por FabioR
 
@@ -9,7 +9,7 @@ Sintaxis y snippets para archivos con la extension .pseud.
 
 ## Known Issues
 
-No está terminada este es un release de prueba.
+No están implementadas todas las keywords ni los scopes necesarios.
 
 ## Release Notes
 
