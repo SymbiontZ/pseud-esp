@@ -1,4 +1,4 @@
-# pseud-esp README
+# Pseudocodigo Español
 
 Extensión creada por FabioR
 
@@ -9,7 +9,7 @@ Sintaxis y snippets para archivos con la extension .pseud.
 
 ## Known Issues
 
-No está terminada este es un release de prueba.
+Los scopes no funcionan correctamente por ahora
 
 ## Release Notes
 
@@ -20,6 +20,10 @@ Lanzamiento inicial de Pseudocódigo en Español. Pocos snippets implementados.
 
 ### 0.1.0
 
-Implementados autocompletado de varias keywords.
-Mas snippets implementados.
-Soporte a los scopes de archivos .pseud.
+- Implementados autocompletado de varias keywords.
+- Mas snippets implementados.
+- Soporte a los scopes de archivos .pseud.
+
+### 0.2.0
+
+- Autocompletado mejorado con la mayoría de las palabras usadas en C.

@@ -32,6 +32,23 @@
     },
 
 
+    
+    "Vector": {
+      "prefix": "vector",
+      "body": [
+        "Vector [${1:N}] de ${2:{tipo}}: ${3:{NomVect}}"
+      ],
+      "description": "Declaración de Vector"
+    },
+
+    "Matriz": {
+      "prefix": "matriz",
+      "body": [
+        "Matriz [${1:N,M}] de ${2:{tipo}}: ${3:{NomMat}}"
+      ],
+      "description": "Declaración de Matriz"
+    },
+
     "Operador Lógico AND": {
       "prefix": "and",
       "body": [
@@ -51,6 +68,6 @@
       "body": [
         "¬"
       ],
-      "description": "Operador Lógico Formal OR"
+      "description": "Operador Lógico Formal NOT"
     }
 }

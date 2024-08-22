@@ -47,7 +47,7 @@
             "{  }",
             "fin_función"
         ],
-        "description": "Plantilla función condicional doble con axiomas incluidos"
+        "description": "Plantilla función condicional doble con axiomas de asignación incluidos"
     },
 
     "Operador Lógico AND": {

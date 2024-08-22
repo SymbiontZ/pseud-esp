@@ -10,6 +10,9 @@
 		},
 		{
 			"include": "#types"
+		},
+		{
+			"include": "#varAssignment"
 		}
 	],
 	"repository": {
@@ -29,6 +32,34 @@
 				}
 			]
 		},
+		
+		"types": {
+			"patterns": [
+				{
+					"name": "storage.type.pseud-esp",
+					"match": "\\b(entero|real|cadena|lógico)\\b"
+				}
+			]
+		},
+
+		"varAssignment": {
+			"patterns": [
+				{
+					"name": "variable.declaration.pseud-esp",
+					"begin": "\\b(entero|real|cadena|lógico|test)\\b\\s*(:)\\s*",
+					"beginCaptures": {
+						"1":{
+							"name": "storage.type.pseud-esp"
+						},
+						"2":{
+							"name": "keyword.operator.assignment.pseud-esp"
+						}
+					},
+					"end": "\\n"
+				}
+			]
+		},
+
 		"strings": {
 			"name": "string.quoted.double.pseud-esp",
 			"begin": "\"",
@@ -39,16 +70,7 @@
 					"match": "\\\\."
 				}
 			]
-		},
-		"types": {
-			"patterns": [
-				{
-					"name": "storage.type.pseud-esp",
-					"match": "\\b(entero|real|cadena|booleano)\\b"
-				}
-			]
 		}
-
 	},
 	"scopeName": "source.pseud"
 }
