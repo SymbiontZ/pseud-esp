@@ -4,19 +4,26 @@ Extensión creada por FabioR
 
 ## Features
 
-Nuevos snippets de pseudocódigo para usar en archivos .txt.
-Sintaxis y snippets para archivos con la extension .pseud.
+### Pseudocódigo Español
+
+- Autocompletado de palabras clave usadas en C.
+- Snippets implementados
+- Scopes en progreso
+
+### Archivos de texto
+
+- Snippets de funciones implementadas
+
 
 ## Known Issues
 
-No está terminada este es un release de prueba.
+Los scopes no funcionan correctamente por ahora
 
 ## Release Notes
 
-### 0.0.1
+### 0.0.1 | Lanzamiento inicial de Pseudocódigo en Español.
 
-Lanzamiento inicial de Pseudocódigo en Español. Pocos snippets implementados. 
-
+- Pocos snippets implementados. 
 
 ### 0.1.0
 

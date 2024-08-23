@@ -9,29 +9,67 @@
       ],
       "description": "Snippet para iniciar funcion"
     },
-    "Condicional Simple": {
+    "Estructura condicional simple": {
       "prefix": "si",
       "body": [
-        "si $1 entonces",
+        "si ${1:cond} entonces",
         "   $2",
         "fin_si"
       ],
-      "description": "Snippet para estructura condicional si-entonces"
+      "description": "Snippet para estructura condicional simple"
     },
 
-    "Condicional Selectiva": {
+    "Estructura condicional doble": {
       "prefix": "si-no",
       "body": [
-        "si $1 entonces",
+        "si ${1:cond} entonces",
         "   $2",
         "si_no",
         "   $3",
         "fin_si"
       ],
-      "description": "Snippet para estructura condicional si-no"
+      "description": "Snippet para estructura condicional doble"
+    },
+    "Estructura selectiva multiple": {
+      "prefix": "según_sea",
+      "body": [
+        "según_sea ${1:var} hacer",
+        "   1: ",
+        "   2: ",
+        "   3: ",
+        "   en_otro_caso: ",
+        "fin_según"
+      ],
+      "description":""
     },
 
-
+    "Estructura bucle while": {
+      "prefix":"mientras",
+      "body": [
+        "mientras ${1:cond} hacer",
+        "   ${2:instrucciones}",
+        "fin_mientras"
+      ],
+      "description": "Snippet para bucle while"
+    },
+    "Estructura bucle do-while": {
+      "prefix":"repetir",
+      "body": [
+        "repetir",
+        "   ${2:instrucciones}",
+        "hasta_que ${1:cond}"
+      ],
+      "description": "Snippet para bucle do-while"
+    },
+    "Estructura bucle for": {
+      "prefix":"desde",
+      "body": [
+        "desde ${1:cond} hasta ${2:N} hacer",
+        "   ${3:instrucciones}",
+        "fin_desde"
+      ],
+      "description": "Snippet para bucle for"
+    },
     
     "Vector": {
       "prefix": "vector",
@@ -48,6 +86,8 @@
       ],
       "description": "Declaración de Matriz"
     },
+
+
 
     "Operador Lógico AND": {
       "prefix": "and",

@@ -1,6 +1,4 @@
 const vscode = require('vscode');
-const path = require('path');
-const fs = require('fs');
 
 function activate(context) {
     const provider = vscode.languages.registerCompletionItemProvider(
@@ -55,8 +53,6 @@ function activate(context) {
 
                     { label: 'repetir', kind: vscode.CompletionItemKind.Keyword, detail: 'Definir bucle do-while' },
                     { label: 'hasta_que', kind: vscode.CompletionItemKind.Keyword, detail: 'Fin bucle do-while' },
-                    
-
 
                     { label: 'devolver', kind: vscode.CompletionItemKind.Keyword, detail: 'Retorno de función' },
                     
