@@ -15,26 +15,41 @@
     "Programming Languages",
     "Snippets"
   ],
+  "activationEvents": [
+    "onLanguage:pseud-esp"
+  ],
   "main": "./out/extension.js",
   "contributes": {
-    "languages": [{
-      "id": "pseud-esp",
-      "aliases": ["Pseudocodigo Español", "pseud-esp"],
-      "extensions": [".pseud"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "pseud-esp",
-      "scopeName": "source.pseud",
-      "path": "./syntaxes/pseud-esp.tmLanguage.json"
-    }],
-    "snippets": [{
-      "language": "pseud-esp",
-      "path": "./snippets/pseud-esp-snippets.json"
+    "languages": [
+      {
+        "id": "pseud-esp",
+        "aliases": [
+          "Pseudocodigo Español",
+          "pseud-esp"
+        ],
+        "extensions": [
+          ".pseud"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "pseud-esp",
+        "path": "./snippets/pseud-esp-snippets.json"
+      },
+      {
+        "language": "plaintext",
+        "path": "./snippets/text-snippets.json"
+      }
+    ]
+  },
+  "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p . --outDir out"
     },
-    {
-      "language": "plaintext",
-      "path": "./snippets/text-snippets.json"
-    }]
-  }
+    "devDependencies": {
+        "typescript": "^5.3.3",
+        "@types/vscode": "^1.92.0"
+    }
 }
