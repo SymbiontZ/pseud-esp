@@ -4,20 +4,20 @@ export class MyDocumentSemanticTokensProvider implements vscode.DocumentSemantic
     provideDocumentSemanticTokens(document: vscode.TextDocument, token: vscode.CancellationToken): vscode.ProviderResult<vscode.SemanticTokens> {
         const tokensBuilder = new vscode.SemanticTokensBuilder();
         const text = document.getText();
-        const regex = /\b(entero|cadena)\b/g;
+        const regex = /\b(entero|cadena|test1)\b/g;
         let match;
 
         while ((match = regex.exec(text)) !== null) {
             const startPos = document.positionAt(match.index);
             const length = match[0].length;
-            tokensBuilder.push(startPos.line, startPos.character, length, this._encodeTokenType('typeParameter'), 0);
+            tokensBuilder.push(startPos.line, startPos.character, length, 1, 0);
         }
 
         return tokensBuilder.build();
     }
 
     private _encodeTokenType(tokenType: string): number {
-        const tokenTypes = ['typeParameter', 'class', 'enum', 'interface', 'namespace', 'type', 'parameter', 'variable', 'property', 'function', 'method'];
+        const tokenTypes = ['typeParameter', 'class', 'enum', 'interface', 'Namespace', 'type', 'parameter', 'variable', 'property', 'function', 'method'];
         return tokenTypes.indexOf(tokenType);
     }
 
