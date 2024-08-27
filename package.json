@@ -3,14 +3,13 @@
   "displayName": "Pseudocodigo Español",
   "description": "Sintaxis de pseudocodigo",
   "publisher": "fabior",
+  "icon": "images/icon",
   "repository": {
     "type": "git",
     "url": "https://github.com/SymbiontZ/pseud-esp"
   },
-  "version": "0.2.0",
-  "engines": {
-    "vscode": "^1.92.0"
-  },
+  "version": "0.2.1",
+  
   "categories": [
     "Programming Languages",
     "Snippets"
@@ -36,5 +35,8 @@
       "language": "plaintext",
       "path": "./snippets/text-snippets.json"
     }]
+  },
+  "engines": {
+    "vscode": "^1.92.0"
   }
 }

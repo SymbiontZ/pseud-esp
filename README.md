@@ -1,8 +1,15 @@
-# Pseudocodigo Español
+
+# Pseudocodigo Español para Visual Studio Code ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/fabior.pseud-esp?labelColor=%23292929&color=%23770997) ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/fabior.pseud-esp?labelColor=%23292929&color=%23770997)
+
+
 
 Extensión creada por FabioR
 
 ## Features
+
+Soporte de snippets para archivos .txt
+Soporte de snippets y autocompletado para archivos .pseud
+
 
 ### Pseudocódigo Español
 
@@ -34,3 +41,8 @@ Los scopes no funcionan correctamente por ahora
 ### 0.2.0
 
 - Autocompletado mejorado con la mayoría de las palabras usadas en C.
+
+### 0.2.1
+
+- Añadido icono (abierto a sugerencias/cambios)
+- Añadidos a snippets cuantificadores

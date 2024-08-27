@@ -17,4 +17,11 @@
 
 ### Actualizado
 
-- Autocompletado mejorado con la mayoria de las palabras usadas en C
+- Autocompletado mejorado con la mayoria de las palabras usadas en 
+
+## [0.2.1] - 2024-08-28
+
+### Añadido
+
+- Icono
+- Snippets para cuantificadores

@@ -109,5 +109,15 @@
         "¬"
       ],
       "description": "Operador Lógico Formal NOT"
+    },
+    "Existe": {
+      "prefix": "existe",
+      "body": ["∃"],
+      "description": "Cuantificador existencial"
+    },
+    "Para todo": {
+      "prefix": "para todo",
+      "body": ["∀"],
+      "description": "Cuantificador universal"
     }
 }
