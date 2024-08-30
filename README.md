@@ -7,10 +7,6 @@ Extensión creada por FabioR
 
 ## Features
 
-Soporte de snippets para archivos .txt
-Soporte de snippets y autocompletado para archivos .pseud
-
-
 ### Pseudocódigo Español
 
 - Autocompletado de palabras clave usadas en C.
@@ -45,4 +41,8 @@ Los scopes no funcionan correctamente por ahora
 ### 0.2.1
 
 - Añadido icono (abierto a sugerencias/cambios)
-- Añadidos a snippets cuantificadores
+- Añadidos snippets de cuantificadores
+
+### 0.3.0
+- Añadido snippets de sumatorios y productorios
+- Añadido scopes de asertos y comentarios para archivos `.pseud`

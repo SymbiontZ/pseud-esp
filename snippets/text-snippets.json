@@ -74,11 +74,22 @@
     "Existe": {
       "prefix": "existe",
       "body": ["∃"],
-      "description": "Cuantificador existencial"
+      "description": "Símbolo cuantificador existencial"
     },
     "Para todo": {
       "prefix": "para todo",
       "body": ["∀"],
-      "description": "Cuantificador universal"
+      "description": "Símbolo cuantificador universal"
+    },
+    "Productorio": {
+      "prefix": "productorio",
+      "body":["∏"],
+      "description": "Símbolo productorio"
+    },
+    "Sumatorio": {
+      "prefix": "sumatorio",
+      "body":["Σ"],
+      "description": "Símbolo sumatorio"
     }
+
 }

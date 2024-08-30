@@ -25,3 +25,10 @@
 
 - Icono
 - Snippets para cuantificadores
+
+## [0.3.0] - 2024-08-30
+
+### Añadido
+
+- Snippets para simbolos de productorio y sumatorio.
+- Scopes para asertos y comentarios

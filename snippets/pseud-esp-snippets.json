@@ -119,5 +119,15 @@
       "prefix": "para todo",
       "body": ["∀"],
       "description": "Cuantificador universal"
+    },
+    "Productorio": {
+      "prefix": "productorio",
+      "body":["∏"],
+      "description": "Símbolo productorio"
+    },
+    "Sumatorio": {
+      "prefix": "sumatorio",
+      "body":["Σ"],
+      "description": "Símbolo sumatorio"
     }
 }
