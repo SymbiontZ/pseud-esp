@@ -55,3 +55,7 @@ Extensión creada por FabioR
 ### 0.4.0
 - Añadido snippets para simbolos de pertenencia y aproximaciones por defecto y exceso
 - Actualizado algunos token scopes de varias palabras clave `funcion,desde,mientras,etc...`
+
+###
+
+- Arreglado snippets de aproximaciones :)

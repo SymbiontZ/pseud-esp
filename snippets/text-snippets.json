@@ -98,12 +98,12 @@
     },
     "Parte por defecto": {
       "prefix": "exceso",
-      "body": ["⌊${1:N}⌋"],
+      "body": ["⌈${1:N}⌉"],
       "description": "Snippet para indicar aproximación por defecto"
     },
     "Parte por exceso": {
       "prefix": "defecto",
-      "body": ["⌈${1:N}⌉"],
+      "body": ["⌊${1:N}⌋"],
       "description": "Snippet para indicar aproximación por exceso"
     }
 
