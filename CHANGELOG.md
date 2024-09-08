@@ -32,3 +32,13 @@
 
 - Snippets para simbolos de productorio y sumatorio.
 - Scopes para asertos y comentarios
+
+## [0.3.1] - 2024-09-08
+
+### Añadido
+
+- Snippets para simbolo de pertenencia y aproximaciones por defecto y exceso
+
+### Actualizado
+
+- Referencia de scopes de algunas palabras

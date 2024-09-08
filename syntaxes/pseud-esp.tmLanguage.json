@@ -23,15 +23,15 @@
 			"patterns": [
 				{
 					"name": "keyword.control.pseud-esp",
-					"match": "\\b(si|entonces|si_no|fin_si)\\b"
+					"match": "\\b(si|entonces|si_no|fin_si|devolver|desde|hasta|hacer|fin_desde|mientras|fin_mientras)\\b"
 				},
 				{
-					"name": "keyword.function.pseud-esp",
-					"match": "\\b(función|inicio|devolver|fin_función)\\b"
+					"name":"entity.name.section.pseud-esp",
+					"match": "\\b(inicio|var|funcion|función|fin_función|fin_funcion)\\b"
 				},
 				{
 					"name": "keyword.operator.logical.pseud-esp",
-					"match": "\\b(and|or|∧)\\b"
+					"match": "\\b(and|or|  ∧)\\b"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 		"types": {
 			"patterns": [
 				{
-					"name": "storage.type.pseud-esp",
+					"name": "entity.name.type.pseud-esp",
 					"match": "\\b(entero|real|cadena|lógico)\\b"
 				}
 			]

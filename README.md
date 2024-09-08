@@ -18,9 +18,14 @@ Extensión creada por FabioR
 - Snippets de funciones implementadas
 
 
-## Known Issues
+## Errores comunes
 
-Los scopes no funcionan correctamente por ahora
+- Algunos scopes no funcionan correctamente por ahora
+
+- Los snippets no funcionan dentro de los comentarios, algo que no se puede cambiar e influye a la hora de documentar funciones.
+
+    **SUGERENCIA: Primero realizar la documentación y luego comentarla.**
+
 
 ## Release Notes
 
@@ -46,3 +51,7 @@ Los scopes no funcionan correctamente por ahora
 ### 0.3.0
 - Añadido snippets de sumatorios y productorios
 - Añadido scopes de asertos y comentarios para archivos `.pseud`
+
+### 0.4.0
+- Añadido snippets para simbolos de pertenencia y aproximaciones por defecto y exceso
+- Actualizado algunos token scopes de varias palabras clave `funcion,desde,mientras,etc...`
